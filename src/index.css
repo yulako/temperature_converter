@@ -2,4 +2,35 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Tahoma;
+  /* display: flex; */
+  /* flex: 1 0 500px;  */
+  margin: auto;   
+  /* flex-basis: 500px; */
+  /* flex-wrap: wrap;  */
+  /* justify-content: space-around; */
+  /* align-items: stretch;  */
+} 
+
+.light-mode {
+  background-color: #fff;
+  color: #444444;
+  height: 100vh;
+  /* background: rgb(118, 230, 221); */
+  background: linear-gradient(35deg,#CCFFFF, #FFCCCC);
+  /* background: linear-gradient(black, #000099, #66c2ff, #ffcccc, #ffeee6); */
+  
+}
+
+.dark-mode {
+  /* background: #2e2e2e; */
+  color: #f9f5f5;
+  height: 100vh;
+  background: linear-gradient(35deg,rgb(39, 40, 40), rgba(53, 52, 52, 0.9));
+ 
+
+}
+
+h3 {
+  text-align: center
 }

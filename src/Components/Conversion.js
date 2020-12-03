@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 
-
-
 const Conversion = () => {
 
-  const [temp, changeTemp] = useState({ c: 0, f: 0 })
+  const [temp, changeTemp] = useState({ c: 0, f: 0 });
 
   const changeToFahrenheit = (e) => changeTemp({
     c: e.target.value,
@@ -18,9 +16,8 @@ const Conversion = () => {
   
 
   return (
-    <div className="box">Type a value in either box:
-       <form action=""> 
-        <br/>
+    <div className="box">Type a value in either box:<br/>
+    <p></p>
         <label htmlFor="">Celcius: </label>
         <input 
         type="text" 
@@ -33,9 +30,7 @@ const Conversion = () => {
         value={temp.f}
         onChange={changeToCelcius}
           />
-      </form>
-
-
+     
     </div>
   );
   };
