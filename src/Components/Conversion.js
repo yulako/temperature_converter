@@ -16,7 +16,7 @@ const Conversion = ({color}) => {
   
 
   return (
-    <div className="box" style={{backgroundColor: color? 'pink' : 'brown'}}>Type a value in either box:<br/>
+    <div className="box" style={{backgroundColor: color? 'Pink' : 'dimgray'}}>Type a value in either box:<br/>
     <p></p>
         <label htmlFor="">Celcius: </label>
         <input 

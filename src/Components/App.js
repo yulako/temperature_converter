@@ -4,7 +4,7 @@ import Conversion from './Conversion'
 
 const App = () => {
 
-    const [curTheme, switchTheme] = useState('true');
+    const [curTheme, switchTheme] = useState(true);
 
         return (
             <div className={curTheme ? 'light-mode': 'dark-mode'}>
@@ -14,7 +14,7 @@ const App = () => {
          
             <button className="button" onClick={()=>{ switchTheme(curTheme ? false : true) }}>{curTheme? 'Darkmode':'Lightmode'}</button>
             <h3>Quick Celsius(˚C) / Fahrenheit(˚F) Conversion: </h3><br/>
-            <Conversion color={darkMode}/>
+            <Conversion color={curTheme}/>
             </div>
  
         )
