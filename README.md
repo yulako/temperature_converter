@@ -9,13 +9,13 @@ This webapp easily converts temperature from Celsius and Fahrenheit or vice vers
 ### Setup
 
   - Install dependencies 
-       npm install
+      - npm install
   - Run server
-       npm start, browse at http//localhost:3000
+      - npm start, browse at http//localhost:3000
 
 
 
-How I came to the decision on tools or framework to use: 
+### How I came to the decision on tools or framework to use: 
   
   Webpack : I used webpack for its customizable feature, better development process, easy to implement with React and supports hot module replacement. 
 
@@ -23,7 +23,8 @@ How I came to the decision on tools or framework to use:
   
 
 
-### Arguments - Solution that you used
+
+### Arguments - Solution that I used
 
 The App component should have a title that allows the user to know what this project is.
 I then thought that I needed some component that will allow me to convert Fahrenheit to Celsius and vice versa.
