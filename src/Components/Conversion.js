@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Conversion = () => {
+const Conversion = ({color}) => {
 
   const [temp, changeTemp] = useState({ c: 0, f: 0 });
 
@@ -16,7 +16,7 @@ const Conversion = () => {
   
 
   return (
-    <div className="box">Type a value in either box:<br/>
+    <div className="box" style={{backgroundColor: color? 'pink' : 'brown'}}>Type a value in either box:<br/>
     <p></p>
         <label htmlFor="">Celcius: </label>
         <input 
