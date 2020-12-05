@@ -34,7 +34,7 @@ In order to implement dark mode I decided to use hooks that holds the current mo
     - `npm run build`
 
   - Run server
-    - `npm start`, browse at http//localhost:3000
+    - `npm start`, browse at http://localhost:3000
 
   
 ### Run development server
